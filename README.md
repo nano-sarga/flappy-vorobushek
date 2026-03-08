@@ -90,8 +90,6 @@ Assets
     └── Pixel sprites created in Aseprite
 ```
 
----
-
 # Game Systems 🖥
 
 ## Bird Controller 𓅪
@@ -106,7 +104,6 @@ Handles:
 * out-of-bounds detection
 * triggering game over
 
----
 
 ## Pipe Spawner ⸙
 
@@ -120,7 +117,6 @@ Features:
 * randomizes pipe height
 * creates endless gameplay
 
----
 
 ## Pipe Movement ༄
 
@@ -128,7 +124,6 @@ Features:
 
 Moves pipes to the left and removes them when they leave the screen.
 
----
 
 ## Score System ✦
 
@@ -144,7 +139,6 @@ logic.addScore(1)
 
 The score increases.
 
----
 
 ## Game Manager 🛡
 
@@ -160,7 +154,6 @@ Responsibilities:
 * switching music at 45 points
 * navigating between scenes
 
----
 
 ## Music Manager ♬ˎˊ˗
 
@@ -175,7 +168,6 @@ Features:
 * track switching
 * persistent music between scenes
 
----
 
 ## Best Score System ☆
 
@@ -191,7 +183,6 @@ PlayerPrefs.SetInt("BestScore", score)
 
 This allows the record to persist between game sessions.
 
----
 
 ## Background System ☘
 
